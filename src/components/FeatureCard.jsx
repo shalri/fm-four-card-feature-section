@@ -13,7 +13,7 @@ const FeatureCard = ({ featureName }) => {
       <h2 className="text-xl font-bold text-ffs-very-dark-blue shadow-black">
         {feature.name}
       </h2>
-      <p className="mb-8 mt-2 text-[0.80rem] leading-[1.75] text-ffs-grayish-blue">
+      <p className="mb-8 mt-2 text-[0.80rem] leading-[1.75] text-ffs-grayish-blue sm:mb-9">
         {feature.desc}
       </p>
       <div className="flex justify-end">
