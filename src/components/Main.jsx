@@ -3,8 +3,8 @@ import FeatureCard from "./FeatureCard";
 const Main = () => {
   return (
     // <main className="container mx-auto mb-auto flex flex-1 flex-col items-center justify-center">
-    <main className="mx-auto mb-auto flex flex-1 flex-col items-center justify-center sm:max-w-full">
-      <article className="px-8 pb-7 pt-20 sm:px-0 sm:pt-0">
+    <main className="mx-auto flex flex-1 flex-col items-center justify-center sm:max-w-full">
+      <article className="px-8 pb-7 pt-20 sm:px-0 sm:pt-10">
         <h1>
           <span className="mb-1 block text-center text-2xl font-normal text-ffs-very-dark-blue sm:mb-3 sm:text-4xl">
             Reliable, efficient delivery
